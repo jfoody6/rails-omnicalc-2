@@ -1,5 +1,6 @@
-class MultiplicationController > application_controller
-  def show_multiplication_form
+class MultiplicationController < ApplicationController
+
+  def multiplication
     render({ :template => "multiply_template/multiplication_form" })
   end
 
